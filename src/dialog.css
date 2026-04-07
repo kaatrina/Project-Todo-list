@@ -1,0 +1,77 @@
+dialog {
+    background-color: white;
+    border: 2px solid rgb(57, 116, 255);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select{
+    width: 420px;
+
+    border-radius: 10px;
+    padding: 10px;
+
+    border: solid 1px rgb(57, 116, 255);
+
+}
+
+input {
+    width: 400px;
+    border-radius: 10px;
+
+    padding: 10px;
+    border: solid 1px rgb(57, 116, 255);
+}
+
+#inputDesc {
+    width: 400px;
+    height: 200px;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    border: solid 1px rgb(57, 116, 255);
+}
+
+.okBtn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.okBtn button {
+
+    border: 1px solid rgb(57, 116, 255);
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(57, 116, 255);
+    padding: 5px;
+    width: 100px;
+}
+
+.okBtn button:hover {
+
+    border: 1px solid rgb(57, 116, 255);
+    color: white;
+    background-color: rgb(57, 116, 255);
+}
+
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

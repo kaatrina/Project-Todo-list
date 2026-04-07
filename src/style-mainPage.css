@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 90px 1fr;
+    height: 1000px;
+    width: 100%;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / -1;
+}
+
+.sidebar {
+    background-color: rgb(57, 116, 255);
+    grid-area: 1 / 1 / -1 / 2;
+}
+
+.content {
+    grid-area: 2 / 2 / -1 / -1;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+

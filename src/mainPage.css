@@ -1,0 +1,24 @@
+.lastline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPage h2 {
+    margin-left: 50px;
+}
+
+.todo-item {
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+
+.priorityPage h1 {
+    margin-bottom: 30px;
+}
+
+.todosPage h1 {
+
+    margin-bottom: 30px;
+}

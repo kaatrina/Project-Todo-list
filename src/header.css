@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.header img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer; 
+}
+
+.header img:hover {
+
+    transform: scale(1.1);
+
+}
